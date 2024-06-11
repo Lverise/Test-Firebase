@@ -10,7 +10,7 @@
 </head>
 <body>
         <div>
-            <label for="opciones">Tipo de producto: </label>
+            <label for="tipoProducto">Tipo de producto: </label>
             <select id="tipoProducto">
                 <option>Aseo personal</option>
                 <option>Bebestible</option>
@@ -18,6 +18,15 @@
             </select>
             <label for="colorProducto">Color del producto:</label>
             <input id="colorProducto" type="color">
+
+            <p>Tipo de Despacho:</p>
+            <label>Retiro en tienda
+                <input type="radio" id="tipoDespacho" name="tipoDespacho" value="Retiro en tienda">
+            </label>
+            <label>Despacho a domicilio
+            <input type="radio" id="tipoDespacho" name="tipoDespacho" value="Despacho a domicilio">
+            </label>
+
             <button id="btnAgregar">Agregar</button>
         </div>
 </body>
